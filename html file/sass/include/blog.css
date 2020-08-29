@@ -1,0 +1,13 @@
+#latest-blog .owl-carousel .item .card img {
+  height: 250px;
+  -webkit-transition: -webkit-transform .5 ease;
+  transition: -webkit-transform .5 ease;
+  transition: transform .5 ease;
+  transition: transform .5 ease, -webkit-transform .5 ease;
+}
+
+#latest-blog .owl-carousel .item .card img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=blog.css.map */

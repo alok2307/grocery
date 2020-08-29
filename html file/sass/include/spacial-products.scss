@@ -1,0 +1,16 @@
+#spacial-products{
+    .grid .grid-items{
+        height: 350px;
+        margin-right: 1.2rem;
+        margin-top: 1rem;
+        .product img{
+            width: 200px;
+            height: 200px;
+            transition: transform .5 ease;
+        }
+        .product img:hover{
+            transform: scale(0.9);
+        }
+    } 
+    
+}

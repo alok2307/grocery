@@ -1,0 +1,56 @@
+#latest-sale .view-all {
+  float: right;
+  border-radius: 10%;
+  margin-top: -35px;
+}
+
+#latest-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+
+#latest-sale .owl-carousel .item .product a img {
+  -webkit-transition: -webkit-transform .5 ease;
+  transition: -webkit-transform .5 ease;
+  transition: transform .5 ease;
+  transition: transform .5 ease, -webkit-transform .5 ease;
+  height: 200px;
+}
+
+#latest-sale .owl-carousel .item .product img:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+#latest-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+
+#latest-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+#latest-sale .owl-carousel .owl-nav button.owl-prev span,
+#latest-sale .owl-carousel .owl-nav button.owl-next span {
+  font-size: 55px;
+  color: color-primary;
+  padding: 0 1rem;
+  padding-top: -10%;
+  background-color: #2e2e2e;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#latest-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: 2rem;
+}
+
+#latest-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+#latest-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: 2rem;
+}
+/*# sourceMappingURL=latest-sale.css.map */

@@ -1,0 +1,20 @@
+#spacial-products .grid .grid-items {
+  height: 350px;
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+#spacial-products .grid .grid-items .product img {
+  width: 200px;
+  height: 200px;
+  -webkit-transition: -webkit-transform .5 ease;
+  transition: -webkit-transform .5 ease;
+  transition: transform .5 ease;
+  transition: transform .5 ease, -webkit-transform .5 ease;
+}
+
+#spacial-products .grid .grid-items .product img:hover {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+/*# sourceMappingURL=spacial-products.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,iBADa,CACb,KAAK,CAAC,WAAW,CAAA;EACb,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,MAAM;EACpB,UAAU,EAAE,IAAI;CASnB;;AAbL,AAKQ,iBALS,CACb,KAAK,CAAC,WAAW,CAIb,QAAQ,CAAC,GAAG,CAAA;EACR,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,iBAAiB;CAChC;;AATT,AAUQ,iBAVS,CACb,KAAK,CAAC,WAAW,CASb,QAAQ,CAAC,GAAG,AAAA,MAAM,CAAA;EACd,SAAS,EAAE,UAAU;CACxB",
+    "sources": [
+        "spacial-products.scss"
+    ],
+    "names": [],
+    "file": "spacial-products.css"
+}

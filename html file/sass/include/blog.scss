@@ -1,0 +1,9 @@
+#latest-blog{
+    .owl-carousel .item .card img{
+        height: 250px;
+        transition: transform .5 ease;
+    }
+    .owl-carousel .item .card img:hover{
+        transform: scale(0.9);
+    }
+}
