@@ -3,7 +3,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-2 bg-light m-0">
-                        <?php include ("./tamplet/list_of_product.php");  ?>
+                        <?php include ("list_of_product.php");  ?>
                     </div>
 
                     <div class="col-sm-10 ">
@@ -21,11 +21,7 @@
                             
                             // case 'dashboard':
                             // include('dash.php');
-                            // break; 
-
-                            case 'login':
-                            include('/banner.php');
-                            break; 
+                            // break;  
                             
                             case 'banner-area':
                             include('banner.php');
@@ -44,7 +40,7 @@
                             break;
 
                             case 'vegitables':
-                            include('vegitable.php');
+                            include('vagitable.php');
                             break;
 
                             case 'drink':
@@ -53,6 +49,10 @@
 
                             case 'bread':
                             include('bread.php');
+                            break;
+
+                            case 'oil':
+                            include('oil.php');
                             break;
                         }}
 
